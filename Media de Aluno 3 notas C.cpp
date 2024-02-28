@@ -9,6 +9,7 @@ void cabecalho () {
 }	
 
 int main () {
+	setlocale(LC_ALL, ""); //as aspas sem idioma definido ele busca pelo idioma do pc.
 	//declarando variaveis
 	float media, primeiraNota, segundaNota, terceiraNota;
 	int idade;
@@ -34,13 +35,13 @@ int main () {
 	cabecalho();
 	printf("Aluno: %s\n", nome);
 	printf("Idade do aluno: %i\n", idade);
-	printf("Media do Aluno: %.2f\n", media);
+	printf("Média do Aluno: %.2f\n", media);
 	
 	//estrutura condicional de aprovado ou reprovado
 	if (media>= 7) {
-		printf("Aprovado !");
+		printf("Situação: Aprovado !");
 	}	else {
-		printf("Reprovado !");
+		printf("Situação: Reprovado !");
 	}
 	
 	return 0;
