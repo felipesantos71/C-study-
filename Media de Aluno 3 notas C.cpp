@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 	//inicio do programa
 void cabecalho () {
 	system("cls || clear");
