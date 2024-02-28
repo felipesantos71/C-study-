@@ -4,6 +4,7 @@
 void cabecalho () {
 	system("cls || clear");
 	printf("\n== Media aluno 3 Notas==\n");
+	fflush(stdin);
 }	
 
 int main () {
