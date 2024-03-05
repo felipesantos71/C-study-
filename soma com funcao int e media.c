@@ -7,8 +7,8 @@ void cabecalho () {
 	printf("\n== Soma de numeros com Função int ==\n");
 }
 
-int somar(int n1, int n2) {
-	int soma;
+int somar(float n1, float n2) {
+	float soma;
 	soma = n1 + n2;
 	return soma;
 }
