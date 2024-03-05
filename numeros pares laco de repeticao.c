@@ -11,7 +11,7 @@ int main () {
 	//declarando variaveis
 	float numero;
 	
-	//laco de repeticao mais tabuado, apresentando resultados
+	//laco de repeticao mais tabuada, apresentando resultados
 	cabecalho();
 	int i;
 	
