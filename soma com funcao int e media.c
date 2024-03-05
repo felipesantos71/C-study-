@@ -4,7 +4,7 @@
 	//incio do programa
 void cabecalho () {
 	system("cls || clear");
-	printf("\n== Soma de numeros com Função int ==\n");
+	printf("\n== Soma de numeros com FunÃ§Ã£o int ==\n");
 }
 
 int somar(int n1, int n2) {
@@ -18,23 +18,23 @@ int main () {
 	setlocale(LC_ALL, "");
 	
 	//declarando variaveis
-	int primeiroNumero, segundoNumero, soma, media;
-	
+	float primeiroNumero, segundoNumero, soma, media;
+
 	//solicitando dados do usuario
 	cabecalho();
-	printf("Digite o primeiro número: ");
-	scanf("%i",&primeiroNumero);
+	printf("Digite o primeiro nÃºmero: ");
+	scanf("%f",&primeiroNumero);
 	
-	printf("Digite o segundo número: ");
-	scanf("%i",&segundoNumero);
+	printf("Digite o segundo nÃºmero: ");
+	scanf("%f",&segundoNumero);
 	
 	//calulando dados 
 	
 	soma = somar(primeiroNumero, segundoNumero);
 	
-	media = soma /2;
+	media = soma / 2;
 	//aprensentando dados ao usuario
-	printf("Media: %i", media);
+	printf("Media: %.2f", media);
 	
 	return 0;
 	//fim do programa
