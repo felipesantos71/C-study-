@@ -4,7 +4,7 @@
 //inicio do algoritmo
 void cabecalho () {
 	system("cls || clear");
-	printf("\n=== M√©dia em La√ßo ===\n");
+	printf("\n=== MÈdia em LaÁo ===\n");
 }
 
 int main () {
@@ -14,20 +14,20 @@ int main () {
 	float nota, media, soma;
 	int i;
 	
-	//solicitando dados ao usu√°rio por meio de la√ßo de repeti√ß√£o
+	//solicitando dados ao usu·rio por meio de laÁo de repetiÁ„o
 	cabecalho();
 	for(i=1;i<=4;i++)	{
-		printf("Digite sua %i¬™ nota: ", i);
+		printf("Digite sua %i™ nota: ", i);
 		scanf("%f",&nota);
 	
 		soma += nota;
 	
-}
+	}
 	
-	//apresentando dados ao usu√°rio, m√©dia
+	//apresentando dados ao usu·rio, mÈdia
 	cabecalho();
-	soma = nota/4;
-	printf("M√©dia aluno: %.2f", media);
+	media = soma/4;
+	printf("MÈdia aluno: %.2f", media);
 	
 	return 0;
 }
