@@ -26,7 +26,7 @@ int main () {
 	
 	//apresentando dados ao usuário, média
 	cabecalho();
-	media = nota/4;
+	soma = nota/4;
 	printf("Média aluno: %.2f", media);
 	
 	return 0;
