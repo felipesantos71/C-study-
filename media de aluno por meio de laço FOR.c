@@ -17,10 +17,10 @@ int main () {
 	//solicitando dados ao usuário por meio de laço de repetição
 	cabecalho();
 	for(i=1;i<=4;i++)	{
-	printf("Digite sua %iª nota: ", i);
-	scanf("%f",&nota);
+		printf("Digite sua %iª nota: ", i);
+		scanf("%f",&nota);
 	
-	soma += nota;
+		soma += nota;
 	
 }
 	
