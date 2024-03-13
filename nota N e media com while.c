@@ -11,8 +11,8 @@ int main() {
 	setlocale(LC_ALL, "");
 	
 	//declarando variáveis
-	int contador;
-	float soma, nota, media;
+	int contador = 0;
+	float nota, soma = 0, media;
 	char continua;
 	
 	//solicitando dados do usuário
@@ -27,7 +27,7 @@ int main() {
 		printf("Digite 'n' Se deseja escrever mais uma nota : ");
 		scanf("%c",&continua);
 		
-		soma = soma + nota;	
+		soma = soma + nota; // ou soma += nota;	
 			
 	} while (continua == 'N');
 	
