@@ -37,7 +37,7 @@ int main() {
 					
 		} while (nota >10 || nota <0);
 		
-		soma = soma + nota;
+		soma += nota;
 	}
 			
 	//exibindo quantidade de vezes que o laço de repetição aconteceu.
