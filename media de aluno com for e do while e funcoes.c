@@ -13,7 +13,7 @@ char* verificarAprovacao(float media){
 	if (media >= 7) 
 		strcpy(resposta, "Aprovado!");
 		else if	(media >=5)
-		strcpy(resposta, "Recuperação!");
+		strcpy(resposta, "RecuperaÃ§Ã£o!");
 		else
 		strcpy(resposta, "Reprovado!");
 
@@ -22,17 +22,17 @@ char* verificarAprovacao(float media){
 int main() {
 	setlocale(LC_ALL, "");
 	//declarando variaveis
-	float nota, media, soma;
+	float nota, media, soma = 0;
 	int i;
 	char resultado[100];
 	
-	//calculando nota e por meio do laço
+	//calculando nota e por meio do laÃ§o
 	cabecalho();
 	for (i=1; i<=3;i++){
 		do {
 			
-			printf("Digite um número de 0 até 10: \n");	
-			printf("Digite o %iº número: ", i);
+			printf("Digite um nÃºmero de 0 atÃ© 10: \n");	
+			printf("Digite o %iÂº nÃºmero: ", i);
 			scanf("%f",&nota);
 					
 		} while (nota >10 || nota <0);
@@ -40,10 +40,10 @@ int main() {
 		soma = soma + nota;
 	}
 			
-	//exibindo quantidade de vezes que o laço de repetição aconteceu.
+	//exibindo quantidade de vezes que o laÃ§o de repetiÃ§Ã£o aconteceu.
 	media = soma/3;
 	cabecalho();
-	printf("Média aritmética: %.2f\n", media);
+	printf("MÃ©dia aritmÃ©tica: %.2f\n", media);
 	strcpy(resultado, verificarAprovacao(media));
 	printf("Aluno: %s\n", resultado);
 	
