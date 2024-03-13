@@ -22,8 +22,8 @@ int main() {
 		printf("Digite uma nota : ");
 		scanf("%f",&nota);
 		fflush(stdin);
-		contador = contador + 1;
-		continuar = toupper(continuar);	
+		contador = contador + 1; // ou contador++;
+		continua = toupper(continua);	
 		printf("Digite 'n' Se deseja escrever mais uma nota : ");
 		scanf("%c",&continua);
 		
