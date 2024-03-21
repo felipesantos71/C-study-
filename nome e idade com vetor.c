@@ -3,7 +3,8 @@
 #include <locale.h>
 
 #define SIZE 2
-	//inicio do código
+#define STRING 200
+	//inicio do cÃ³digo
 void cabecalho() {
 	system("cls || clear");
 	printf("\n == Nome e idade com Vetor == \n");
@@ -12,9 +13,9 @@ int main () {
 	setlocale(LC_ALL, "");
 	//declarando variaveis e vetores
 	int idade[SIZE], i;
-	char nome[SIZE][100];
+	char nome[SIZE][STRING];
 	
-	//laço for com vetor
+	//laÃ§o for com vetor
 	cabecalho();
 	for(i=0;i<SIZE;i++) {
 		printf("Digite seu nome: ");
